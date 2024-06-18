@@ -48,20 +48,9 @@ body {
 
 .intro-image {
   max-width: 50%;
+  width: 200px;
   height: auto;
   border-radius: 8px;
-}
-
-.header {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-style: normal;
-  background-color: #52796f;
-  color: white;
-  padding: 1rem 2rem;
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .services {
@@ -153,16 +142,14 @@ body {
 }
 
 .image {
-  width: 20%;
   height: auto;
+  width: auto;
+  padding-right: 10rem;
 }
 
 .intro-text {
   width: 50%;
-}
-
-.hello {
-  background-color: red;
-  height: 200px;
-  width: 100px;
+  padding-left: 10rem;
+  color: #52796f;
+  font-size: x-large;
 }
