@@ -1,16 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import Gaz from "../photos/Gaz.jpeg";
-import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
-
-
+import Gaz from "../../photos/Gaz.jpeg";
+import { Fraunces } from "next/font/google";
+import "../intro/intro.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
-
-
 
 function Intro() {
   const introText = `${fraunces.className} intro-text`;
@@ -20,10 +17,12 @@ function Intro() {
         <p className={introText}>
           Your journey to mental wellness begins here.
         </p>
-        <Image className="image" src={Gaz} alt="Ghazala Aziz" />
+        <div className="parent">
+          <div className="block"></div>
+          <Image className="image" src={Gaz} alt="Ghazala Aziz" />
+        </div>
       </div>
     </>
   );
 }
-
 export default Intro;
