@@ -1,9 +1,9 @@
-import Footer from "../components/Footer";
+import Footer from "../components/footer/Footer";
 import NavBar from "../components/navbar/Navbar";
-import Services from "../components/Services";
-import ContactForm from "../components/contactForm/ContactForm";
+import Services from "../components/services/Services";
 import Main from "../components/main/main";
 import Intro from "../components/intro/Intro";
+import ContactSection from "@/components/contactSection/ContactSession";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <Intro />
       <Main />
       <Services />
-      <ContactForm />
+      <ContactSection />
       <Footer />
     </>
   );

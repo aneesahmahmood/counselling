@@ -1,9 +1,9 @@
 .intro-div {
   width: 100%;
   display: flex;
-  /* padding: 2rem; */
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .intro-text {
@@ -43,4 +43,13 @@
   padding-left: 10rem;
   color: #52796f;
   font-size: xx-large;
+}
+
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-bottom: 6.5rem;
 }

@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 18rem;
+  padding-right: 18rem;
+}
+
+.title {
+  margin-top: 5rem;
+  color: #52796f;
+  font-size: 35px;
+  display: block;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+
+.intro-image {
+  height: 450px;
+  width: 310px;
+  box-shadow: 15px 15px #52796f;
+}
+
+.description {
+  width: 50%;
+  padding-left: 10rem;
+  font-size: large;
+  color: #52796f;
+}
+
+.image-container {
+  width: 50%;
+}
