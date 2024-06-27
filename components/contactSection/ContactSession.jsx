@@ -13,7 +13,7 @@ export default function ContactSection() {
   return (
     <section className="contact-section">
       <div className="header1">
-        <header className={header}>Let's Get in Touch</header>
+        <header className={header}>Let&#39;s Get in Touch</header>
         <div className={body}>
           Feel free to give me a call. I offer a 15 minute complimentary phone
           consultation and I would love to hear from you.
