@@ -57,25 +57,26 @@ export default function Services() {
         </div>
       </div>
       <section className="work-together">
-      <div className="service-container">
-        <div className={service1}>
-          <p>How We Can Work Together</p>
+        <div className="service-container">
+          <div className={service1}>
+            <p>How We Can Work Together</p>
+          </div>
         </div>
-      </div>
-      <div className="service-container">
-        <div className={service2}>
-          <p>
-            Therapy will look different for each individual, as it should! I offer
-            each person a tailored approach so that they can feel best supported
-            with their own unique goals and intentions for therapy. I encourage
-            you to share about your life, relationships, and struggles so that we
-            may explore certain thought and behavioral patterns that may no longer
-            be serving you. I offer guidance as you develop alternative
-            perspectives and ways of relating that resonate deeply to your core.
-          </p>
+        <div className="service-container">
+          <div className={service2}>
+            <p className="therapy-text">
+              Therapy will look different for each individual, as it should! I
+              offer each person a tailored approach so that they can feel best
+              supported with their own unique goals and intentions for therapy.
+              I encourage you to share about your life, relationships, and
+              struggles so that we may explore certain thought and behavioral
+              patterns that may no longer be serving you. I offer guidance as
+              you develop alternative perspectives and ways of relating that
+              resonate deeply to your core.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </section>
   );
 }

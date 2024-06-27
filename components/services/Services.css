@@ -1,6 +1,6 @@
-.services-container {
+/* .services-container {
   text-align: center;
-}
+} */
 
 .services {
   padding: 2rem;
@@ -49,6 +49,7 @@
 .service-header {
   font-size: xx-large;
   color: #52796f;
+  text-align: center;
 }
 
 .work-together {
@@ -76,6 +77,9 @@
 .service2-text {
   color: #52796f;
   font-size: large;
-  text-align: justify;
   margin-bottom: 2rem;
+}
+
+.therapy-text {
+  line-height: 2rem;
 }
