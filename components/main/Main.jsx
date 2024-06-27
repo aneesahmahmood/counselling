@@ -15,7 +15,7 @@ export default function Main() {
   const text = `${fraunces.className} description`;
   return (
     <div>
-      <h1 className={mainTitle}>Welcome, I'm Ghazala Aziz</h1>
+      <h1 className={mainTitle}>Hi, I'm Ghazala Aziz</h1>
       <main className="main">
         <div className="intro">
           <p className={text}>

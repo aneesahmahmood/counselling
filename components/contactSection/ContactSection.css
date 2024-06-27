@@ -1,7 +1,6 @@
 .contact-section {
   padding: 2rem;
-  background-color: #f4f4f4;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fdfbf5;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,29 +19,29 @@
 
 .contact-header {
   font-size: 2rem;
-  color: #52796f;
+  color: #164e4e;
   margin-bottom: 1rem;
 }
 
 .contact-body {
   font-size: 1.2rem;
-  color: #333;
+  color: #164e4e;
   line-height: 2rem;
 }
 
 .contact-button {
-  background-color: #52796f;
-  color: white;
+  color: #164e4e;
   padding: 0.8rem 1.5rem;
   border: none;
-  border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border: 3px solid #164e4e;
 }
 
 .contact-button:hover {
-  background-color: #416c61;
+  background-color: #164e4e;
+  color: #fdfbf5;
 }
 
 .header1 {

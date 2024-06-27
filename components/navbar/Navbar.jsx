@@ -42,7 +42,9 @@ const Navbar = () => {
             <Link href="/FAQs">FAQs</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <button className="nav-button">
+              <Link href="/contact">Say Hello</Link>
+            </button>
           </li>
         </ul>
       </nav>
