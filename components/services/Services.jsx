@@ -1,4 +1,4 @@
-import "../services/services.css";
+import "../services/Services.css"
 import { Fraunces, Cormorant_Garamond } from "next/font/google";
 
 const fraunces = Fraunces({

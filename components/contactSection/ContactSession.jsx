@@ -1,5 +1,5 @@
 import React from "react";
-import "../contactSection/contactSection.css";
+import "../contactSection/ContactSection.css";
 import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
 
 const fraunces = Fraunces({
