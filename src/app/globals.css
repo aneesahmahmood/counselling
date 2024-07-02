@@ -10,37 +10,3 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-
-.footer {
-  background-color: #52796f;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  font-size: 1rem;
-}
-
-.image {
-  position: relative;
-  z-index: 1;
-  height: auto;
-  width: auto;
-  padding-right: 20rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.block {
-  height: 510px;
-  background-color: #a3b18a;
-  position: absolute;
-  right: 0px;
-  width: 550px;
-  z-index: 0;
-  margin-top: 0.5rem;
-  margin-right: 1rem;
-}
-
-.parent {
-  position: relative;
-}
