@@ -15,7 +15,7 @@ function ServicesMain() {
       <h1 className="header-service">WHY THERAPY? </h1>
       <p className="main-text">
         Choosing whether to pursue therapy can bring up many questions within
-        us. &#34;;Do I really need therapy?&#34; &#34;Are my problems and
+        us. &#34;Do I really need therapy?&#34; &#34;Are my problems and
         experiences even worth talking about?&#34; We can often feel insecure,
         embarrassed, and even a little afraid to enter into therapy. With this
         in mind, I not only validate these concerns, but I encourage you all the

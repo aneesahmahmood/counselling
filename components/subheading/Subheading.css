@@ -11,7 +11,8 @@
 
 @media (max-width: 768px) {
   .subheading {
-    font-size: 10px;
-    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    line-height: 22px;
   }
 }
