@@ -89,3 +89,18 @@
 .contact-form button:hover {
   background-color: #52796f;
 }
+
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .contact-content {
+    margin-right: 0;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
