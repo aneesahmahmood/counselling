@@ -19,7 +19,9 @@
   padding: 1.5rem;
   width: 300px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   color: #164e4e;
 }
 
@@ -93,5 +95,6 @@
   .work-together {
     flex-direction: column;
     padding: 2rem 1rem;
+    align-items: center;
   }
 }

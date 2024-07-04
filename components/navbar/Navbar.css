@@ -2,7 +2,7 @@
   background-color: #fdfbf5;
   padding: 1rem 2rem;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   color: #164e4e;
   width: 100%;
@@ -42,12 +42,14 @@
   font-size: 45px;
   font-style: normal;
   text-wrap: nowrap;
+  text-decoration: none;
 }
 
 .header-text2 {
   font-weight: 500;
   font-size: 30px;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 .header {
@@ -91,6 +93,8 @@
     text-align: center;
     padding: 1rem;
     padding-top: 7rem;
+    width: 100%;
+    justify-content: center;
   }
 
   .header-text1 {
@@ -127,4 +131,8 @@
   .navbar a:hover {
     color: #e3a781;
   }
+}
+
+span {
+  color: #164e4e;
 }

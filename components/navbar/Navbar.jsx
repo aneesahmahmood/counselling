@@ -1,4 +1,5 @@
 import { Fraunces } from "next/font/google";
+import Link from "next/link";
 
 import NavElements from "./components/navElements/NavElements";
 
@@ -15,14 +16,20 @@ const Navbar = () => {
   const navElementsClass = `${fraunces.className} navbar`;
 
   return (
-    <div className="main-header">
-      <header className="header">
-        <span className={titleOneClassName}>Ghazala Aziz&nbsp;</span>
-        <span className={titleTwoClassName}>Counselling</span>
-      </header>
-      <NavElements className={navElementsClass} />
-      
-    </div>
+    <>
+      <div className="main-header">
+        <header className="header">
+          <Link href="/" className={titleOneClassName}>
+            <span>Ghazala Aziz&nbsp;</span>
+          </Link>
+
+          <Link href="/" className={titleTwoClassName}>
+            <span> Counselling</span>
+          </Link>
+        </header>
+        <NavElements className={navElementsClass} />
+      </div>
+    </>
   );
 };
 

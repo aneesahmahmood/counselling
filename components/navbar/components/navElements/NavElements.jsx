@@ -11,6 +11,8 @@ import { MOBILE_BREAKPOINT } from "@/src/app/constants";
 const NavElements = ({ className }) => {
   const { width } = useWindowSize();
 
+  console.log(width);
+  
   if (width < MOBILE_BREAKPOINT) {
     return <Button icon={<MenuOutlined />} />;
   }

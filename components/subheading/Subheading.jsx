@@ -1,6 +1,6 @@
 import React from "react";
 import "../subheading/Subheading.css";
-import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
+import { Fraunces } from "next/font/google";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
