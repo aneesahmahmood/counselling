@@ -2,18 +2,9 @@ import React from "react";
 import "../subheading/Subheading.css";
 import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
 const fraunces = Fraunces({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-});
-const lustria = Lustria({
-  subsets: ["latin"],
-  weight: ["400"],
 });
 
 function Subheading() {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
+import { Cormorant_Garamond, Fraunces } from "next/font/google";
 
 import "./ServicesMain.css";
 

@@ -1,22 +1,16 @@
 import "../footer/Footer.css";
 import Link from "next/link";
-import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
+import { Fraunces } from "next/font/google";
 import Image from "next/image";
 import logo from "../../photos/bacp.png";
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
+
 
 const fraunces = Fraunces({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
-const lustria = Lustria({
-  subsets: ["latin"],
-  weight: ["400"],
-});
+
 
 export default function Footer() {
   const main = `${fraunces.className} footer-title`;

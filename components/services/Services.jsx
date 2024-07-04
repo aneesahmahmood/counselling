@@ -6,10 +6,7 @@ const fraunces = Fraunces({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
+
 
 export default function Services() {
   const titleOneClassName = `${fraunces.className} service-header`;

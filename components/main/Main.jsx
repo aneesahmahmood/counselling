@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import photo from "../../photos/Gaz.jpeg";
 import "../main/main.css";
-import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
+import {Fraunces } from "next/font/google";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
