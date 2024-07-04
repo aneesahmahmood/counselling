@@ -1,26 +1,19 @@
 import React from "react";
-import { Cormorant_Garamond, Fraunces } from "next/font/google";
+import { Fraunces } from "next/font/google";
 
 import "./ServicesMain.css";
 
-const cormorant = Cormorant_Garamond({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
 const fraunces = Fraunces({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
 
 function ServicesMain() {
-  const headerService = `${cormorant.className} header-service`;
-  const mainText = `${cormorant.className} main-text`;
-  const numbers = `${fraunces.className} numbers`;
   const tableText = `${fraunces.className} table`;
   return (
     <div>
-      <h1 className={headerService}>WHY THERAPY? </h1>
-      <p className={mainText}>
+      <h1 className="header-service">WHY THERAPY? </h1>
+      <p className="main-text">
         Choosing whether to pursue therapy can bring up many questions within
         us. &#34;;Do I really need therapy?&#34; &#34;Are my problems and
         experiences even worth talking about?&#34; We can often feel insecure,
@@ -31,9 +24,9 @@ function ServicesMain() {
         it may be their first time exploring therapy as an option. My hope is
         that you feel supported in our work together.
       </p>
-      <h2 className={headerService}>WHAT TO EXPECT</h2>
+      <h2 className="header-service">WHAT TO EXPECT</h2>
       <div className="number-div">
-        <p className={numbers}>01</p>
+        <p className="numbers">01</p>
         <p className="text">
           We&#39;ll start with a brief phone conversation so that I can get a
           sense of the kind of support that you are looking for. I&#39;ll ask
@@ -44,7 +37,7 @@ function ServicesMain() {
         </p>
       </div>
       <div className="number-div">
-        <p className={numbers}>02</p>
+        <p className="numbers">02</p>
         <p className="text">
           In the first few sessions, I will learn more about you and together,
           we will explore the goals you have for therapy. Do you want to build
@@ -54,7 +47,7 @@ function ServicesMain() {
         </p>
       </div>
       <div className="number-div">
-        <p className={numbers}>03</p>
+        <p className="numbers">03</p>
         <p className="text">
           The length and number of sessions will differ depending on your goals
           and needs for therapy. For some, a handful of sessions to address an
@@ -66,7 +59,7 @@ function ServicesMain() {
       </div>
 
       <div className="table-div">
-        <h1 className={headerService}>MY AREAS OF EXPERTISE</h1>
+        <h1 className="header-service">MY AREAS OF EXPERTISE</h1>
         <table className={tableText}>
           <tbody>
             <tr>

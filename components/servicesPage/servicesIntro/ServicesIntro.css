@@ -11,12 +11,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
 
 .intro-text {
-  color: #e3a781;
+  color: #164e4e;
   font-size: x-large;
+  font-weight: bold;
 }
 
 .intro-text + p {
