@@ -1,7 +1,11 @@
+"use client";
+
+import React, { useState } from "react";
 import { Fraunces } from "next/font/google";
 import Link from "next/link";
 
 import NavElements from "./components/navElements/NavElements";
+import Drawer from "./components/drawer/Drawer";
 
 import "../navbar/Navbar.css";
 
@@ -11,6 +15,16 @@ const fraunces = Fraunces({
 });
 
 const Navbar = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const openDrawer = () => {
+    setIsDrawerOpen(true);
+  };
+
+  const closeDrawer = () => {
+    setIsDrawerOpen(false);
+  };
+
   const titleOneClassName = `${fraunces.className} header-text1`;
   const titleTwoClassName = `${fraunces.className} header-text2`;
   const navElementsClass = `${fraunces.className} navbar`;
@@ -27,8 +41,9 @@ const Navbar = () => {
             <span> Counselling</span>
           </Link>
         </header>
-        <NavElements className={navElementsClass} />
+        <NavElements className={navElementsClass} openDrawer={openDrawer} />
       </div>
+      <Drawer onClose={closeDrawer} open={isDrawerOpen} />
     </>
   );
 };

@@ -83,6 +83,14 @@
   color: #fdfbf5;
 }
 
+.nav-button > a {
+  color: #164e4e;
+}
+
+.nav-button:hover > a {
+  color: #fdfbf5;
+}
+
 @media (max-width: 768px) {
   .main-header {
     flex-direction: column;

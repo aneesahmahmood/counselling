@@ -8,13 +8,11 @@ import { MenuOutlined } from "@ant-design/icons";
 
 import { MOBILE_BREAKPOINT } from "@/src/app/constants";
 
-const NavElements = ({ className }) => {
+const NavElements = ({ className, openDrawer }) => {
   const { width } = useWindowSize();
 
-  console.log(width);
-  
   if (width < MOBILE_BREAKPOINT) {
-    return <Button icon={<MenuOutlined />} />;
+    return <Button icon={<MenuOutlined />} onClick={openDrawer} />;
   }
 
   return (

@@ -1,43 +1,35 @@
-import React, { useState } from "react";
-import { Drawer, Button } from "antd";
+import React from "react";
+import { Drawer as AntDrawer } from "antd";
 import Link from "next/link";
 
-function CustomDrawer({ className }) {
-  const [open, setOpen] = useState(false);
+import "./Drawer.css";
 
-  const showDrawer = () => {
-    setOpen(true);
-  };
-  const onClose = () => {
-    setOpen(false);
-  };
-
+function Drawer({ onClose, open }) {
   return (
     <>
-      <Button type="primary" onClick={showDrawer}>
-        Open
-      </Button>
-      <Drawer title="Basic Drawer" onClose={onClose} open={open}>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about"> About Me</Link>
-        </li>
-        <li>
-          <Link href="/services">Services</Link>
-        </li>
-        <li>
-          <Link href="/FAQs">FAQs</Link>
-        </li>
-        <li>
-          <button className="nav-button">
-            <Link href="/contact">Say Hello</Link>
-          </button>
-        </li>
-      </Drawer>
+      <AntDrawer onClose={onClose} open={open}>
+        <ul className="drawer-list">
+          <li className="drawer-item">
+            <Link href="/">Home</Link>
+          </li>
+          <li className="drawer-item">
+            <Link href="/about"> About Me</Link>
+          </li>
+          <li className="drawer-item">
+            <Link href="/services">Services</Link>
+          </li>
+          <li className="drawer-item">
+            <Link href="/FAQs">FAQs</Link>
+          </li>
+          <li className="drawer-item">
+            <button className="nav-button">
+              <Link href="/contact">Say Hello</Link>
+            </button>
+          </li>
+        </ul>
+      </AntDrawer>
     </>
   );
 }
 
-export default CustomDrawer;
+export default Drawer;
