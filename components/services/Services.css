@@ -78,3 +78,20 @@
 .therapy-text {
   line-height: 2rem;
 }
+
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .service {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .work-together {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+}

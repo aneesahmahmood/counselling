@@ -22,25 +22,25 @@ function ServicesMain() {
       <h1 className={headerService}>WHY THERAPY? </h1>
       <p className={mainText}>
         Choosing whether to pursue therapy can bring up many questions within
-        us. “Do I really need therapy?” “Are my problems and experiences even
-        worth talking about?” We can often feel insecure, embarrassed, and even
-        a little afraid to enter into therapy. With this in mind, I not only
-        validate these concerns, but I encourage you all the more to reach out
-        despite these feelings as often time these emotions are indicative of
-        how therapy can actually be helpful for us. For some, it may be their
-        first time exploring therapy as an option. My hope is that you feel
-        supported in our work together.
+        us. &#34;;Do I really need therapy?&#34; &#34;Are my problems and
+        experiences even worth talking about?&#34; We can often feel insecure,
+        embarrassed, and even a little afraid to enter into therapy. With this
+        in mind, I not only validate these concerns, but I encourage you all the
+        more to reach out despite these feelings as often time these emotions
+        are indicative of how therapy can actually be helpful for us. For some,
+        it may be their first time exploring therapy as an option. My hope is
+        that you feel supported in our work together.
       </p>
       <h2 className={headerService}>WHAT TO EXPECT</h2>
       <div className="number-div">
         <p className={numbers}>01</p>
         <p className="text">
-          We'll start with a brief phone conversation so that I can get a sense
-          of the kind of support that you are looking for. I'll ask for some
-          basic information to get to know you and also use this time to answer
-          any questions that you might have. If it feels like we are a good fit
-          for working together, we will schedule either an in-person or online
-          appointment.
+          We&#39;ll start with a brief phone conversation so that I can get a
+          sense of the kind of support that you are looking for. I&#39;ll ask
+          for some basic information to get to know you and also use this time
+          to answer any questions that you might have. If it feels like we are a
+          good fit for working together, we will schedule either an in-person or
+          online appointment.
         </p>
       </div>
       <div className="number-div">
@@ -49,8 +49,8 @@ function ServicesMain() {
           In the first few sessions, I will learn more about you and together,
           we will explore the goals you have for therapy. Do you want to build
           healthier relationships? Learn how to better manage emotions and
-          stress? Or even identifying patterns that keep us feeling "stuck" in
-          our lives.
+          stress? Or even identifying patterns that keep us feeling
+          &#34;stuck&#34; in our lives.
         </p>
       </div>
       <div className="number-div">

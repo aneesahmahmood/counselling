@@ -1,4 +1,3 @@
-import { Button } from "antd";
 import Link from "next/link";
 import "../navbar/Navbar.css";
 import { Cormorant_Garamond, Lustria, Fraunces } from "next/font/google";
@@ -53,3 +52,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
