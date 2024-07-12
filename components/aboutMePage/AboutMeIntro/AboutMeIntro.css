@@ -1,0 +1,47 @@
+.about-page-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+  background-color: #fdfbf5;
+  gap: 2rem;
+}
+
+.about-me-intro {
+  width: 50%;
+  padding-left: 14rem;
+  color: #164e4e;
+  padding-top: 3rem;
+  line-height: 1.5rem;
+}
+
+.image {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: auto;
+  padding-right: 20rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.block {
+  height: 510px;
+  background-color: #164e4e;
+  position: absolute;
+  right: 0px;
+  width: 550px;
+  z-index: 0;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.intro-title {
+  padding-top: 2rem;
+  color: #164e4e;
+  text-align: center;
+  font-size: 35px;
+  background-color: #fdfbf5;
+}

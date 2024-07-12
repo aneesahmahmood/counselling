@@ -1,13 +1,17 @@
-// import Layout from '../components/Layout';
+import Qualifications from "@/components/aboutMePage/qualifications/Qualifications";
+import AboutMeIntro from "../../../components/aboutMePage/AboutMeIntro/AboutMeIntro";
+import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/navbar/Navbar";
+import Subheading from "@/components/subheading/Subheading";
 
 const About = () => {
   return (
     <section>
-      <h2>About Me</h2>
-      <p>
-        Information about the counselor, their qualifications, and approach to
-        counseling.
-      </p>
+      <Navbar />
+      <Subheading />
+      <AboutMeIntro />
+      <Qualifications/>
+      <Footer />
     </section>
   );
 };
