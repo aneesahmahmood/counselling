@@ -54,7 +54,7 @@ const questions = [
     id: 7,
     question: "What is your cancellation policy?",
     answer:
-      "Our cancellation policy requires at least 24 hours' notice if you need to cancel or reschedule your appointment. This allows us to offer the time slot to another client. If you cancel with less than 24 hours' notice, you may be charged a cancellation fee.",
+      "Our cancellation policy requires at least 24 hours notice if you need to cancel or reschedule your appointment. This allows us to offer the time slot to another client. If you cancel with less than 24 hours notice, you may be charged a cancellation fee.",
   },
   {
     id: 8,
@@ -78,17 +78,17 @@ const questions = [
     id: 13,
     question: "What should I do if I feel uncomfortable during a session?",
     answer:
-      "If you ever feel uncomfortable during a session, it's important to communicate this with your counsellor. They are trained to handle such situations and will work with you to ensure you feel safe and supported. Your feedback is crucial in making the counselling process effective for you.",
+      "If you ever feel uncomfortable during a session, it is important to communicate this with your counsellor. They are trained to handle such situations and will work with you to ensure you feel safe and supported. Your feedback is crucial in making the counselling process effective for you.",
   },
   {
     id: 14,
     question: "Can I bring someone with me to my counselling session?",
     answer:
-      "You are welcome to bring a support person, such as a friend or family member, to your counselling session if you feel it will be helpful. It's best to discuss this with your counsellor in advance to ensure it aligns with the session&#34;s goals.",
+      "You are welcome to bring a support person, such as a friend or family member, to your counselling session if you feel it will be helpful. It is best to discuss this with your counsellor in advance to ensure it aligns with the session&#34;s goals.",
   },
   {
     id: 15,
-    question: "What if I don't feel like we're a good fit?",
+    question: "What if I do not feel like we are a good fit?",
     answer:
       "Finding the right counsellor is important for effective therapy. If you feel that we are not a good fit, please let me know. I can help you find another counsellor who might be better suited to your needs.",
   },
