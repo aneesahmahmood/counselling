@@ -106,7 +106,7 @@ const questions = [
   },
 ];
 
-const Accordion = () => {
+const Accordian = () => {
   return (
     <Collapse className="collapse">
       {questions.map(({ id, question, answer }) => (
@@ -118,4 +118,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default Accordian;
