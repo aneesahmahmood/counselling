@@ -1,0 +1,47 @@
+.contact-page {
+  padding: 20px;
+}
+
+.contact-title {
+  font-size: 36px;
+  color: #c88328;
+  padding-top: 5rem;
+  padding-left: 20rem;
+  padding-bottom: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.contact-info {
+  flex: 1;
+  margin-right: 20px;
+  width: 50%;
+  color: #164e4e;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-image {
+  flex: 1;
+}
+
+.office {
+  height: auto;
+  width: auto;
+}
+
+.phone,
+.phonenumber,
+.email,
+.emailaddress {
+  color: #164e4e;
+  padding-left: 5rem;
+  font-size: 20px;
+}
