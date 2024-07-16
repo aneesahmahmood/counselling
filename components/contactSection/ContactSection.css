@@ -36,9 +36,18 @@
   border: 3px solid #164e4e;
 }
 
+.contact-button > a {
+  color: #164e4e;
+  text-decoration: none;
+}
 .contact-button:hover {
   background-color: #164e4e;
   color: #fdfbf5;
+}
+
+.contact-button > a:hover {
+  color: #fdfbf5;
+  text-decoration: none;
 }
 
 .header1 {

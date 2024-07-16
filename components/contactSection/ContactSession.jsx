@@ -1,7 +1,6 @@
 import React from "react";
 import "./ContactSection.css";
-
-
+import Link from "next/link";
 import { Fraunces } from "next/font/google";
 
 const fraunces = Fraunces({
@@ -21,7 +20,9 @@ export default function ContactSection() {
           consultation and I would love to hear from you.
         </div>
       </div>
-      <button className="contact-button">Contact Me</button>
+      <button className="contact-button">
+        <Link href="/contact"> Contact Me</Link>
+      </button>
     </section>
   );
 }
