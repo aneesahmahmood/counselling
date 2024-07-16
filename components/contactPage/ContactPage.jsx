@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Fraunces } from "next/font/google";
 
 import Office from "../../photos/office.jpeg";
-import "../contactPage/ContactPage.css";
+import "./ContactPage.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],

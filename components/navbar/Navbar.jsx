@@ -7,7 +7,7 @@ import Link from "next/link";
 import NavElements from "./components/navElements/NavElements";
 import Drawer from "./components/drawer/Drawer";
 
-import "../navbar/Navbar.css";
+import "./Navbar.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],

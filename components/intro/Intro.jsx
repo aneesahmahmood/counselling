@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Gaz from "../../photos/Gaz.jpeg";
 import { Fraunces } from "next/font/google";
-import "../intro/Intro.css";
+import "./Intro.css";
 
 const fraunces = Fraunces({
   subsets: ["latin"],

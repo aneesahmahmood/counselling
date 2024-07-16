@@ -1,23 +1,20 @@
-import "../footer/Footer.css";
+import "./Footer.css";
 import Link from "next/link";
 import { Fraunces } from "next/font/google";
 import Image from "next/image";
 import logo from "../../photos/bacp.png";
-
-
 
 const fraunces = Fraunces({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
 
-
 export default function Footer() {
   const main = `${fraunces.className} footer-title`;
   const links = `${fraunces.className} footer-links`;
   const linkTitle = `${fraunces.className} link-title`;
   const footerContact = `${fraunces.className} footer-contact`;
-  const contactTitle = `${fraunces.className} contact-title`;
+  const contactTitle = `${fraunces.className} footer-contact-title`;
 
   return (
     <footer className="footer">

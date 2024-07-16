@@ -16,6 +16,10 @@
   padding-right: 10rem;
   font-size: 15px;
 }
+.navbar > ul > li {
+  display: flex;
+  align-items: center;
+}
 
 .navbar a {
   color: #164e4e;

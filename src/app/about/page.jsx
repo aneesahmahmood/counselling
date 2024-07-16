@@ -1,4 +1,4 @@
-import Qualifications from "@/components/aboutMePage/qualifications/Qualifications";
+import Qualifications from "@/components/aboutMePage/Qualifications/Qualifications";
 import AboutMeIntro from "../../../components/aboutMePage/AboutMeIntro/AboutMeIntro";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
@@ -10,7 +10,7 @@ const About = () => {
       <Navbar />
       <Subheading />
       <AboutMeIntro />
-      <Qualifications/>
+      <Qualifications />
       <Footer />
     </section>
   );

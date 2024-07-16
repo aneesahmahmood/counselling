@@ -1,5 +1,5 @@
-import "../services/Services.css"
-import { Fraunces, Cormorant_Garamond } from "next/font/google";
+import "./Services.css"
+import { Fraunces, } from "next/font/google";
 
 const fraunces = Fraunces({
   subsets: ["latin"],

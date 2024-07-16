@@ -2,15 +2,9 @@
 
 import React from "react";
 import { Collapse } from "antd";
-import { Fraunces } from "next/font/google";
-import "../accordian/Accordian.css";
+import "./Accordian.css";
 
 const { Panel } = Collapse;
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
 
 const questions = [
   {

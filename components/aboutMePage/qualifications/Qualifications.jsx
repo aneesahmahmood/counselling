@@ -1,5 +1,5 @@
 import React from "react";
-import "../qualifications/Qualifications.css";
+import "./Qualifications.css";
 
 function Qualifications() {
   return (

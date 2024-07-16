@@ -1,5 +1,7 @@
 import React from "react";
-import "../contactSection/ContactSection.css";
+import "./ContactSection.css";
+
+
 import { Fraunces } from "next/font/google";
 
 const fraunces = Fraunces({

@@ -1,5 +1,5 @@
 import React from "react";
-import "../subheading/Subheading.css";
+import "./Subheading.css";
 import { Fraunces } from "next/font/google";
 
 const fraunces = Fraunces({
