@@ -2,17 +2,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 18rem;
-  padding-right: 18rem;
+  padding: 0 18rem;
   background-color: #fdfbf5;
 }
 
 .title {
-  padding-top: 5rem;
+  padding: 5rem 0 2rem 0;
   color: #164e4e;
   font-size: 35px;
   display: block;
-  padding-bottom: 2rem;
   text-align: center;
   background-color: #fdfbf5;
 }

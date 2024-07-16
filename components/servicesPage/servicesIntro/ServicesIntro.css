@@ -29,9 +29,7 @@
   z-index: 1;
   height: auto;
   width: auto;
-  padding-right: 20rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem 20rem 2rem 0;
 }
 
 .block {

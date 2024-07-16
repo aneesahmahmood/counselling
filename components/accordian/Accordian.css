@@ -1,7 +1,21 @@
 .collapse {
-  padding-top: 5rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
-  padding-bottom: 5rem;
-  color: red;
+  padding: 5rem 15rem;
+}
+
+@media (max-width: 1024px) {
+  .collapse {
+    padding: 0 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .collapse {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .collapse {
+    padding: 2rem 1rem;
+  }
 }

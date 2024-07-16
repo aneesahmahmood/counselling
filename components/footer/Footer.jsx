@@ -44,15 +44,17 @@ export default function Footer() {
         </div>
         <div className={footerContact}>
           <h4 className={contactTitle}>Contact</h4>
-          <p>
-            Email:{" "}
-            <a href="mailto:ghazala_aziz@hotmail.com">
-              ghazala_aziz@hotmail.com
-            </a>
-          </p>
-          <p>
-            Phone: <a href="tel:07817960066">07817960066</a>
-          </p>
+          <div className="contact-div">
+            <div>
+              Email:{" "}
+              <a href="mailto:ghazala_aziz@hotmail.com">
+                ghazala_aziz@hotmail.com
+              </a>
+            </div>
+            <div>
+              Phone: <a href="tel:07817960066">01234 56789</a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
