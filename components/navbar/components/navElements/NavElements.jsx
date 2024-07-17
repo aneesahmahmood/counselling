@@ -11,7 +11,6 @@ import { MOBILE_BREAKPOINT } from "@/src/app/constants";
 const NavElements = ({ className, openDrawer }) => {
   const { width } = useWindowSize();
 
-  
   if (width < MOBILE_BREAKPOINT) {
     return <Button icon={<MenuOutlined />} onClick={openDrawer} />;
   }
@@ -33,7 +32,7 @@ const NavElements = ({ className, openDrawer }) => {
         </li>
         <li>
           <button className="nav-button">
-            <Link href="/contact">Say Hello</Link>
+            <Link href="/contact">Contact</Link>
           </button>
         </li>
       </ul>
