@@ -1,3 +1,4 @@
+import FaqTitle from "@/components/faqPage/FaqTitle";
 import Accordian from "../../../components/accordian/Accordian";
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
@@ -8,6 +9,7 @@ const Faq = () => {
     <>
       <Navbar />
       <Subheading />
+      <FaqTitle />
       <Accordian />
       <Footer />
     </>
